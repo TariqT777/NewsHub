@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import ArticleList from './ArticleList';
 
 const Home = () => {
 
@@ -19,12 +20,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <h2>Homepage</h2>
-            {articles.map((article) => (
-                <div className="article-preview" key={article.id}>
-                    <h2>{article.title}</h2>
-                    <p>Written by {article.author}</p>
-                </div>
-            ))}
+            <ArticleList articles = {articles}/>
            
         </div>
      );
