@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 const ArticleList = (props) => {
 
@@ -8,7 +8,7 @@ const ArticleList = (props) => {
         <div className="article-list">
              {articles.map((article) => (
                 <div className="article-preview" key={article.id}>
-                    <img src={article.pic} alt = "" />
+                    <a href = "https://www.cnn.com/2021/10/11/us/wisconsin-parent-lawsuit-covid-school/index.html"><img src={article.pic} alt = "" /></a>
                     <h2>{article.title}</h2>
                     <p>Written by {article.author}</p>
                 </div>
