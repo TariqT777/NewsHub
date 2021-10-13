@@ -4,7 +4,7 @@ import images from './images/index.js';
 import API from './API';
 
 const Home = () => {
-    <API />
+    
 
     /*const [name, setName]= useState('Testing');
 
@@ -24,6 +24,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <h2>Homepage</h2>
+            <API />
             <ArticleList articles = {articles}/>
            
         </div>

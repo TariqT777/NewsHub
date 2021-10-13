@@ -17,16 +17,19 @@ const [articles, setArticles] = useState(null);
     }, []); 
     return (
         <div>
-          <h1>Game of Thrones articles</h1>
+          <h1>News Articles</h1>
       
           {/* display articles from the API */}
           {articles && (
             <div className="articles">
       
               {/* loop over the articles */}
-              {articles.map((article, index) => (
+              {/* Articles.articles here because map needs to grab the aritcles section (which is an array) 
+              from the API, in order to iterate over it. */}
+              {articles.articles.map((article, index) => (
                 <div key={index}>
-                  <h2>{article.name}</h2>
+                  <h2>{article.title}</h2>
+                  <h3>{article.description}</h3>
                 </div>
               ))}
       
