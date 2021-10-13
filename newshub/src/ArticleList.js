@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
+import {useEffect} from "react";
+import fetchData from './API';
 
 const ArticleList = (props) => {
 
+    useEffect(() => {
+        fetchData();
+        }, []);
     const articles = props.articles;
+    
 
     return ( 
+        
         <div className="article-list">
              {articles.map((article) => (
                 <div className="article-preview" key={article.id}>
@@ -13,8 +20,11 @@ const ArticleList = (props) => {
                     <p>Written by {article.author}</p>
                 </div>
             ))}
+            
         </div>
      );
+
+     
 }
  
 export default ArticleList;
