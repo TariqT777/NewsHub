@@ -8,7 +8,11 @@ const [articles, setArticles] = useState(null);
   
       // we will use async/await to fetch this data
       async function getData() {
-        const res = await fetch("https://newsapi.org/v2/everything?q=Apple&from=2021-10-14&sortBy=popularity&apiKey=3fdff4b6daf648ac91dd3a97a1b68644");
+        const res = await fetch('https://newsapi.org/v2/everything?' +
+        'q=Apple&' +
+        'from=2021-10-14&' +
+        'sortBy=popularity&' +
+        'apiKey=3fdff4b6daf648ac91dd3a97a1b68644');
         const data = await res.json();
   
         // store the data into our Articles variable
@@ -29,8 +33,10 @@ const [articles, setArticles] = useState(null);
               {articles.articles.map((article, index) => (
                 <div key={index}>
                   <img src={article.urlToImage} alt=""/>
-                  <h2>{article.title}</h2>
+                  <h2><a href={article.url}>{article.title}</a></h2>
                   <h3>{article.description}</h3>
+                  <br></br>
+                  <br></br>
                   
                 </div>
               ))}
