@@ -13,20 +13,25 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #c535f1;
 }
 .navbar .links {
   margin-left: auto;
+  
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  background-color:#c535f1;
+  color: white;
+  border-radius: 8px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #c535f1;
 }
 .content {
   max-width: 600px;
@@ -44,7 +49,7 @@
 }
 .article-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #c535f1;
   margin-bottom: 8px;
 }
 
@@ -54,3 +59,4 @@ img{
   padding: 5px;
   width: 75%;
 }
+
