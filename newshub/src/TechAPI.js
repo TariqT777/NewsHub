@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-function API(){
+function TechAPI(){
 const [articles, setArticles] = useState(null);
   
     // + adding the use
@@ -9,7 +9,7 @@ const [articles, setArticles] = useState(null);
       // we will use async/await to fetch this data
       async function getData() {
         const res = await fetch('https://newsapi.org/v2/top-headlines?' +
-        'country=us&apiKey=3fdff4b6daf648ac91dd3a97a1b68644');
+        'country=us&category=technology&apiKey=3fdff4b6daf648ac91dd3a97a1b68644');
         const data = await res.json();
   
         // store the data into our Articles variable
@@ -46,4 +46,4 @@ const [articles, setArticles] = useState(null);
 
 
 
-export default API;
+export default TechAPI;
