@@ -1,14 +1,14 @@
-import TechAPI from './TechAPI';
+import SportsAPI from "./SportsAPI";
 
 
 
-const Tech = () => {
+const Sports = () => {
     return ( 
         <div className="Tech">
-            <h2>Techpage</h2>
-            <TechAPI />
+            <h2>SportsPage</h2>
+            <SportsAPI />
 
         </div>
      );
 }
-export default Tech;
+export default Sports;

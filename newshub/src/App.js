@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import Home from './Home'; 
 import Tech from './TechnologyPage';
+import Sports from './SportsPage';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
 
 
@@ -22,6 +23,10 @@ function App() {
             <Tech />
           </Route>
           
+          <Route exact path ="/SportsPage">
+            <Sports />
+          </Route>
+
         </Switch>
       </div>
     </div>
