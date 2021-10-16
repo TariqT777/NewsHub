@@ -1,19 +1,19 @@
+import { Link } from 'react-router-dom';
+
+
 const Navbar = () => {
     return ( 
         <nav className="navbar">
             <h1>The NewsHub</h1>
             <div className="links">
-                <a href="/create">Home</a>
-                <a href="/create">Technology</a>
-                <a href="/create" style={{
-                    color: "white",
-                    borderRadius: '8px'
-                }}>Sports</a>
-                <a href="/create" >Politics</a>
-                <a href="/create">World</a>
-                <a href="/create">Entertainment</a>
-                <a href="/create">BlackLivesMatter</a>
-                <a href="/create">Satire</a>
+                <Link to="/">Home</Link>
+                <Link to="/TechnologyPage">Technology</Link>
+                <Link to="/create" >Sports</Link>
+                <Link to="/create" >Politics</Link>
+                <Link to="/create">World</Link>
+                <Link to="/create">Entertainment</Link>
+                <Link to="/create">BlackLivesMatter</Link>
+                <Link to="/create">Satire</Link>
             </div>
         </nav>
      );
