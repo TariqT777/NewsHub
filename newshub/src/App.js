@@ -3,8 +3,10 @@ import Home from './Home';
 import Tech from './TechnologyPage';
 import Sports from './SportsPage';
 import Entertainment from './EntertainmentPage';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
 import Health from './HealthPage';
+import Business from './BusinessPage';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
+
 
 
 function App() {
@@ -35,6 +37,10 @@ function App() {
 
           <Route exact path ="/HealthPage">
             <Health />
+          </Route>
+
+          <Route exact path ="/BusinessPage">
+            <Business />
           </Route>
 
         </Switch>
