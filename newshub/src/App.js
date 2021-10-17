@@ -4,6 +4,7 @@ import Tech from './TechnologyPage';
 import Sports from './SportsPage';
 import Entertainment from './EntertainmentPage';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
+import Health from './HealthPage';
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
 
           <Route exact path ="/EntertainmentPage">
             <Entertainment />
+          </Route>
+
+          <Route exact path ="/HealthPage">
+            <Health />
           </Route>
 
         </Switch>
