@@ -5,7 +5,7 @@ import BusinessAPI from "./BusinessAPI";
 const Business = () => {
     return ( 
         <div className="Tech">
-            <h2>EntertainmentPage</h2>
+            <h2>BusinessPage</h2>
             <BusinessAPI />
 
         </div>

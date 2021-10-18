@@ -6,6 +6,7 @@ import Entertainment from './EntertainmentPage';
 import Health from './HealthPage';
 import Business from './BusinessPage';
 import Science from './SciencePage';
+import Search from './Search';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar />
+      <Search />
       <div className="content">
         <Switch>
           <Route exact path="/">
