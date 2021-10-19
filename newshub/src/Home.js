@@ -17,7 +17,7 @@ const Home = () => {
 
 
     return ( 
-        <div className="home">
+        <div className="PageArticles">
             <h2>Homepage</h2>
             <API />
 

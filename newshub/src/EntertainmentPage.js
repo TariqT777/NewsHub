@@ -4,8 +4,8 @@ import EntertainmentAPI from "./EntertainmentAPI";
 
 const Entertainment = () => {
     return ( 
-        <div className="Tech">
-            <h2>EntertainmentPage</h2>
+        <div className="PageArticles">
+            <h1>Entertainment Articles</h1>
             <EntertainmentAPI />
 
         </div>

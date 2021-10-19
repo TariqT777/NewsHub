@@ -4,8 +4,8 @@ import HealthAPI from "./HealthAPI";
 
 const Health = () => {
     return ( 
-        <div className="Tech">
-            <h2>HealthPage</h2>
+        <div className="PageArticles">
+            <h1>Health Articles</h1>
             <HealthAPI />
 
         </div>

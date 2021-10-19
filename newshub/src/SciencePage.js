@@ -4,8 +4,8 @@ import ScienceAPI from "./ScienceAPI";
 
 const Science = () => {
     return ( 
-        <div className="Tech">
-            <h2>SciencePage</h2>
+        <div className="PageArticles">
+            <h1>Science Articles</h1>
             <ScienceAPI />
 
         </div>

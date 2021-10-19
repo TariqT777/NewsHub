@@ -6,6 +6,13 @@
   font-family: "Oswald";
   color: #333;
 }
+.articles h2{
+  text-align: center;
+}
+
+.articles h3{
+  text-align: center;
+}
 .navbar {
   padding: 20px;
   display: flex;
@@ -16,7 +23,7 @@
   
 }
 .navbar h1 {
-  color: #c535f1;
+  color: #8200aa;
 }
 .navbar .links {
   margin-left: auto;
@@ -30,12 +37,12 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  background-color:#c535f1;
+  background-color:#8200aa;
   color: white;
   border-radius: 8px;
 }
 .navbar a:hover {
-  color: #c535f1;
+  color: yellow;
 }
 .content {
   max-width: 600px;
@@ -53,7 +60,7 @@
 }
 .article-preview h2 {
   font-size: 20px;
-  color: #c535f1;
+  color: #8200aa;
   margin-bottom: 8px;
 }
 
@@ -61,7 +68,7 @@ img{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 75%;
+  width: 100%;
 }
 
 .visually-hidden {

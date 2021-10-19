@@ -4,8 +4,8 @@ import SportsAPI from "./SportsAPI";
 
 const Sports = () => {
     return ( 
-        <div className="Tech">
-            <h2>SportsPage</h2>
+        <div className="PageArticles">
+            <h1>Sports Articles</h1>
             <SportsAPI />
 
         </div>

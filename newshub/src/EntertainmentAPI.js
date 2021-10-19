@@ -18,7 +18,6 @@ const [articles, setArticles] = useState(null);
     }, []); 
     return (
         <div>
-          <h1>News Articles</h1>
       
           {/* display articles from the API */}
           {articles && (

@@ -4,8 +4,8 @@ import TechAPI from './TechAPI';
 
 const Tech = () => {
     return ( 
-        <div className="Tech">
-            <h2>Techpage</h2>
+        <div className="PageArticles">
+            <h1>Tech Articles</h1>
             <TechAPI />
 
         </div>
