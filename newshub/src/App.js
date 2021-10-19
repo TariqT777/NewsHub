@@ -19,7 +19,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar />
-      <Search />
+      
       <div className="content">
         <Switch>
           <Route exact path="/">

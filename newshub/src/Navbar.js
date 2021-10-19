@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import SearchBar from './Search';
 
 const Navbar = () => {
     return ( 
@@ -13,6 +13,9 @@ const Navbar = () => {
                 <Link to="/HealthPage">Health</Link>
                 <Link to="/BusinessPage">Business</Link>
                 <Link to="/SciencePage">Science</Link>
+            </div>
+            <div className = "searchbar">
+                <SearchBar />
             </div>
         </nav>
      );
