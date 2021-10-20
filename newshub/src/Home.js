@@ -1,6 +1,4 @@
 import {useState} from 'react';
-import ArticleList from './ArticleList';
-import images from './images/index.js';
 import API from './API';
 
 const Home = () => {
